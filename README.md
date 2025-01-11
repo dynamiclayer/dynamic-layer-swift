@@ -43,14 +43,16 @@ Start using over 100+ free and open-source collection of solid and outline SVG i
 
 🔍 [Check out the icons](https://www.figma.com/design/FKXB4TEUoRW24IU46EOeQB/Dynamic-Layer-V.5.0?node-id=18637-61282&t=IyiWVrtXETyNCniG-1)
 
+
 ## Pro Version
 
 Get access to all premium features including the complete Figma design system and access to all 50+ Swift components:
 
 💎 [Check out Pro Version](https://dynamiclayer.io/pro)
 
+
 ## Copyright and license
 
 The Dynamic Layer name and logo are trademarks of Dynamic Layer
 
-- 📝 [Read about the licensing terms](https://dynamiclayer.io/license)
+📝 [Read about the licensing terms](https://dynamiclayer.io/license)
