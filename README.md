@@ -4,29 +4,16 @@
 
 <b> [Download the Figma Package](https://www.figma.com/community/file/1226993304994576514/mobile-app-ui-kit-design-system-figma-swift-compose-react-native-figma-to-code-free) </b>
 
-With Dynamic Layer you get a Figma, Swift, Compose and React native file for your work. It optimizes collaboration between designers and developers. Designers use pre-built components for their designs in Figma and developers use the same components through copy and paste in their code. This makes the entire process of creating an app from start to finish 10x faster.
+With Dynamic Layer you get a Figma, SwiftUI, Jetpack Compose and React Native file for your work. It optimizes collaboration between designers and developers. Designers use pre-built components for their designs in Figma and developers use the same components through copy and paste in their code. This makes the entire process of creating an app from start to finish 10x faster.
 
 Find out more at: [dynamiclayer.io](https://dynamiclayer.io/)
 
 
-
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [How to use](#how-to-use)
-- [Components](#components)
-- [Tokens](#tokens)
-- [Figma Design System](#figma-design-system)
-- [Dynamic Layer Icons](#dynamic-layer-icons)
-- [Premium Version](#premium-version)
-- [Copyright and license](#copyright-and-license)
-
-
 ## How to use
 
-If you want to know how to best use the files, you can watch our YouTube video. There we will explain to you step by step what you have to do.
+If you want to know how to best use the files, you can check out our documentation. There we will explain to you step by step what you need to do.
 
-🎥 [Check out our YouTube channel](https://dynamiclayer.io/).
+📖 [Check out our Documentation](https://dynamiclayer.webflow.io/docs/getting-started).
 
 
 ## Components
