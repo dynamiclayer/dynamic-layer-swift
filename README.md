@@ -1,12 +1,8 @@
-<p>
-    <a href="https://dynamiclayer.io" >
-      <img alt="Dynamic Layer - Swift and Figma components" width="100%" src="https://uploads-ssl.webflow.com/625ad6a79b212f513b883f58/656e1fec0ce6a25b81eb1884_swift-github-read-me.jpg">
-    </a>
-</p>
+## Dynamic Layer
 
-<b> Dynamic Layer is the biggest Components library for Figma, Swift, Compose and React Native. This file uncludes 7 mobile optimized reusable UI components and many Design Tokens for Swift and Figma. The Full Version includes more than 20+ components. </b>
+<b> Dynamic Layer is the biggest Component library for Figma, SwiftUI, Jetpack Compose and React Native. This file uncludes 8 mobile optimized reusable UI components and many Design Tokens for SwiftUI and Figma. The Pro Version includes more than 50+ components. </b>
 
-<b> [Download the Figma Package!](https://dynamiclayer.io/) </b>
+<b> [Download the Figma Package!](https://www.figma.com/@dynamiclayer) </b>
 
 With Dynamic Layer you get a Figma, Swift, Compose and React native file for your work. It optimizes collaboration between designers and developers. Designers use pre-built components for their designs in Figma and developers use the same components through copy and paste in their code. This makes the entire process of creating an app from start to finish 10x faster.
 
