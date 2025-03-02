@@ -1,11 +1,11 @@
 import XCTest
-@testable import DynamicLayers
+@testable import Dynamiclayer
 
 final class DynamicLayersTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(DynamicLayers().text, "Hello, World!")
+        XCTAssertEqual(Dynamiclayer().text, "Hello, World!")
     }
 }

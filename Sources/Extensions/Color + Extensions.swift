@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 13.0, *)
-extension Color {
+public extension Color {
     
     // MARK: - Red Colors
     static let red50 = Color("Red50", bundle: .module)
@@ -62,7 +62,9 @@ extension Color {
     static let purple900 = Color("Purple900", bundle: .module)
     static let purple950 = Color("Purple950", bundle: .module)
     
-    // MARK: - Gray Color
+    // MARK: - Grey Color
+    static let white1 = Color("White1", bundle: .module)
+    static let black1 = Color("Black1", bundle: .module)
     static let grey50 = Color("Grey50", bundle: .module)
     static let grey100 = Color("Grey100", bundle: .module)
     static let grey200 = Color("Grey200", bundle: .module)
@@ -70,10 +72,10 @@ extension Color {
     static let grey400 = Color("Grey400", bundle: .module)
     static let grey500 = Color("Grey500", bundle: .module)
     static let grey600 = Color("Grey600", bundle: .module)
-    static let grey700 = Color("Graey700", bundle: .module)
-    static let grey800 = Color("Graey800", bundle: .module)
-    static let grey900 = Color("Graey900", bundle: .module)
-    static let grey950 = Color("Graey950", bundle: .module)
+    static let grey700 = Color("Grey700", bundle: .module)
+    static let grey800 = Color("Grey800", bundle: .module)
+    static let grey900 = Color("Grey900", bundle: .module)
+    static let grey950 = Color("Grey950", bundle: .module)
     
     // MARK: - Platinum
     static let platinum50 = Color("Platinum50", bundle: .module)
@@ -95,4 +97,28 @@ extension Color {
     static let chipBorderColor = Color("ChipBorderColor", bundle: .module) //#E2E8F0
     static let chipBgColor = Color("ChipBgColor", bundle: .module) //#F8FAFC
 
+    init(hex: String) {
+        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        let a, r, g, b: UInt64
+        switch hex.count {
+        case 3: // RGB (12-bit)
+            (a, r, g, b) = (255, (int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
+        case 6: // RGB (24-bit)
+            (a, r, g, b) = (255, int >> 16, int >> 8 & 0xFF, int & 0xFF)
+        case 8: // ARGB (32-bit)
+            (a, r, g, b) = (int >> 24, int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
+        default:
+            (a, r, g, b) = (1, 1, 1, 0)
+        }
+        
+        self.init(
+            .sRGB,
+            red: Double(r) / 255,
+            green: Double(g) / 255,
+            blue: Double(b) / 255,
+            opacity: Double(a) / 255
+        )
+    }
 }
